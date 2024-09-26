@@ -22,17 +22,17 @@ Anos que estarei baseando a minha análise.[2022, 2021, 2020, 2019,2018]
 1. Tempos um total de 93848 linhas e 11 colunas
 2. Temos os seguintes tipos de dados: 
     
-    ANO                   int64 🟢
-    MES                   int64 🟢
-    SENADOR              object 🟢
-    TIPO_DESPESA         object 🟢
-    CNPJ_CPF             object 🟢
-    FORNECEDOR           object 🟢
-    DOCUMENTO            object 🟢
-    DATA                 object 🔴 → precisa trocar o tipo para datatime
-    DETALHAMENTO         object 🟢
-    VALOR_REEMBOLSADO    object 🟢
-    COD_DOCUMENTO         int64 🟢
+    -ANO                   int64 🟢
+    -MES                   int64 🟢
+    -SENADOR              object 🟢
+    -TIPO_DESPESA         object 🟢
+    -CNPJ_CPF             object 🟢
+    -FORNECEDOR           object 🟢
+    -DOCUMENTO            object 🟢
+    -DATA                 object 🔴 → precisa trocar o tipo para datatime
+    -DETALHAMENTO         object 🟢
+    -VALOR_REEMBOLSADO    object 🔴 -> precisa trocar o tipo para float
+    -COD_DOCUMENTO         int64 🟢
     
 3. Não temos valores duplicados 
 4. Porém temos alguns valores ausentes: 
